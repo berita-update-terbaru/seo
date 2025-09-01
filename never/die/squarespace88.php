@@ -33,8 +33,8 @@ function Ram()
 $judul = str_replace("%20", "-", Ram());
 $b = Ram();
 $nb = Ram();
-$title = $judul . " : GANTI LINK";
-$desc = $judul . " GANTI DESKRIPSI";
+$title = $judul . " : Login Website YKAI";
+$desc = $judul . " Organisasi non-profit independen yang fokus membantu anak dengan kanker dari keluarga pra-sejahtera di Indonesia.";
 $kw = $judul . ", daftar " . $judul . ", maxwin " . $judul . ", link alternatif " . $judul . ", situs " . $judul . ", slot " . $judul . ",togel " . $judul . ",agen " . $judul . ",slot gacor, slot88";
 $banner = "https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg";
 $favicon = "https://i.ibb.co/G4Ny32Fx/image.png";
@@ -42,7 +42,7 @@ $logo = "https://i.ibb.co/Cpg3GVvz/gacoflash.gif";
 $button = "https://i.ibb.co/P75hKL2/daftar-bossku.gif";
 
 // URL with hyphens instead of %20
-$url = 'GANTI URL' . str_replace(" ", "-", $judul);
+$url = 'https://web.yayasankankeranakindonesia.com/' . str_replace(" ", "-", $judul);
 $dftr = "https://t.ly/akun88";
 $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
 
