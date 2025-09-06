@@ -3599,14 +3599,14 @@ if (!lzdDocCookies.getItem('t_uid')) {
 
         .login,
         .login-button {
-            background: linear-gradient(to top, #be6c00ff 0%, #ff9100ff 100%);
-            border: 2px solid #743800ff;
+            background: linear-gradient(to top, #00ff00ff 0%, #00851dff 100%);
+            border: 2px solid #d0ff00ff;
         }
 
         .register,
         .register-button {
-            background: linear-gradient(to top, #ff9100ff 0%, #be6c00ff 100%);
-            border: 2px solid #743800ff;
+            background: linear-gradient(to top, #b30000ff 0%, #be0000ff 100%);
+            border: 2px solid #e5ff00ff;
         }
     </style>
     <div class="n-columns-2" style="font-size: 20px;">
