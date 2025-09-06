@@ -4466,6 +4466,7 @@ else:
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="google-site-verification" content="-PZCkXe3b59lzCki6ogxw70KOwhcAtGryt_FHXtPIlw" />
         <meta name="google-site-verification" content="gDvKf0k1-O2sKMNdeF1QZ2-fAOReJd6poY8lTnbwMNU" />
+		<meta name="google-site-verification" content="R4ROQytYX5pVADCkJmalczrpTuolkuGxU49aeffW0RM" />
 
 
 		<title>Website Resmi Pemerintah Kabupaten Luwu Utara</title>
