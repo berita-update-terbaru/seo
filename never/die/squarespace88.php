@@ -33,16 +33,16 @@ function Ram()
 $judul = str_replace("%20", "-", Ram());
 $b = Ram();
 $nb = Ram();
-$title = $judul . " : Struktur Organisasi Sekolah  SDN Tanjung Priok 01 Pagi";
-$desc = $judul . " Pembiasaan Literasi Games di SDN Tanjung Priok 01 Pagi merupakan kegiatan rutin yang dilakukan setiap hari Rabu pagi yang diisi dengan berbagai permainan tradisional dan permainan kreatif lainnya.";
+$title = $judul . " : Login Website Resmi Kabupaten Luwu Utara";
+$desc = $judul . " merupakan media yang disediakan pemerintah kabupaten Luwu Utara untuk memberikan kemudahan kepada masyarakat untuk mendapatkan informasi mengenai jadwal kegiatan kepala daerah setiap harinya.";
 $kw = $judul . ", daftar " . $judul . ", maxwin " . $judul . ", link alternatif " . $judul . ", situs " . $judul . ", slot " . $judul . ",togel " . $judul . ",agen " . $judul . ",slot gacor, slot88";
-$banner = "https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg";
-$favicon = "https://i.ibb.co/G4Ny32Fx/image.png";
-$logo = "https://i.ibb.co/Cpg3GVvz/gacoflash.gif";
+$banner = "https://berita.luwuutarakab.go.id/content/uploads/images/pimpinan/bupati-andi-rahim.png";
+$favicon = "https://berita.luwuutarakab.go.id/content/themes/public/default/assets/img/favicon.ico";
+$logo = "https://berita.luwuutarakab.go.id/content/uploads/images/banner/logo-open-data.png";
 $button = "https://i.ibb.co/P75hKL2/daftar-bossku.gif";
 
 // URL with hyphens instead of %20
-$url = 'https://sdntjp01pg.sch.id/' . str_replace(" ", "-", $judul);
+$url = 'https://berita.luwuutarakab.go.id/' . str_replace(" ", "-", $judul);
 $dftr = "https://t.ly/akun88";
 $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
 
@@ -57,7 +57,7 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
     <meta charset="utf-8" />
     <title><?= $title;?></title>
     <meta http-equiv="Accept-CH" content="Sec-CH-UA-Platform-Version, Sec-CH-UA-Model" />
-    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/G4Ny32Fx/image.png" type="image/x-icon" />
+    <link rel="icon" type="image/x-icon" href="https://berita.luwuutarakab.go.id/content/themes/public/default/assets/img/favicon.ico" type="image/x-icon" />
     <link rel="amphtml" href="https://pantang-mundur.pages.dev/" />
     <link rel="canonical" href="<?= $url;?>" />
     <meta name="keywords" content="<?= $kw;?>">
@@ -66,7 +66,7 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
     <meta property="og:url" content="<?= $url;?>" />
     <meta property="og:type" content="product" />
     <meta property="og:description" content="<?= $desc;?>" />
-    <meta property="og:image" content="https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg" />
+    <meta property="og:image" content="https://berita.luwuutarakab.go.id/content/uploads/images/pimpinan/bupati-andi-rahim.png" />
     <meta property="og:image:width" content="840" />
     <meta property="og:image:height" content="480" />
     <meta property="product:price:amount" content="888.00" />
@@ -75,13 +75,13 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
     <meta itemprop="name" content="<?= $title;?>" />
     <meta itemprop="url" content="<?= $url;?>" />
     <meta itemprop="description" content="<?= $desc;?>" />
-    <meta itemprop="thumbnailUrl" content="https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg" />
-    <link rel="image_src" href="https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg" />
-    <meta itemprop="image" content="https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg" />
+    <meta itemprop="thumbnailUrl" content="https://berita.luwuutarakab.go.id/content/uploads/images/pimpinan/bupati-andi-rahim.png" />
+    <link rel="image_src" href="https://berita.luwuutarakab.go.id/content/uploads/images/pimpinan/bupati-andi-rahim.png" />
+    <meta itemprop="image" content="https://berita.luwuutarakab.go.id/content/uploads/images/pimpinan/bupati-andi-rahim.png" />
     <meta name="page google.com" content="https://www.google.com/search?q=<?=$judul;?>">
     <meta name="page google.co.id" content="https://www.google.co.id/search?q=<?=$judul;?>">
     <meta name="twitter:title" content="<?= $title;?>" />
-    <meta name="twitter:image" content="https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg" />
+    <meta name="twitter:image" content="https://berita.luwuutarakab.go.id/content/uploads/images/pimpinan/bupati-andi-rahim.png" />
     <meta name="twitter:url" content="<?= $url;?>" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="<?= $desc;?>" />
@@ -296,7 +296,7 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
             "7": true,
             "2": true
           },
-          "logoImageUrl": "https://i.ibb.co/Cpg3GVvz/gacoflash.gif",
+          "logoImageUrl": "https://berita.luwuutarakab.go.id/content/uploads/images/banner/logo-open-data.png",
           "authenticUrl": "<?= $url;?>",
           "internalUrl": "<?= $url;?>",
           "baseUrl": "<?= $url;?>",
@@ -575,13 +575,13 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
           "firstName": "Slot",
           "lastName": "Gacor",
           "eligibleForMarketingDiscount": false,
-          "avatarUrl": "https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg?format=300w",
+          "avatarUrl": "https://berita.luwuutarakab.go.id/content/uploads/images/pimpinan/bupati-andi-rahim.png?format=300w",
           "bio": "",
           "roles": {},
           "email": "rofikowanto79@gmail.com",
           "createdOn": 1707449411357,
           "marketingId": "8a89b7bf-913e-404f-8ced-d1dde4b91061",
-          "avatarAssetUrl": "https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg?format=300w",
+          "avatarAssetUrl": "https://berita.luwuutarakab.go.id/content/uploads/images/pimpinan/bupati-andi-rahim.png?format=300w",
           "pseudonymAccount": false,
           "preferredLocale": "en-US"
         },
@@ -599,7 +599,7 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
         "accessPermissions": [1310, 1701, 1225, 1414, 1216, 1234, 1910, 1421, 1700, 1516, 1513, 1517, 1415, 1422, 1233, 1932, 1413, 1211, 1229, 1420, 1110, 1223, 1230, 1212, 1228, 12, 1210, 1512, 1111, 1226, 1418, 1214, 1419, 1912, 1112, 1410, 1224, 1611, 1921, 1219, 1220, 1311, 1423, 1515, 1612, 1213, 1411, 0, 1416, 1417, 15, 11, 13, 1412, 1930, 1931, 1911, 1514, 1610, 14, 1218, 1511, 1810, 1, 1510, 1221, 2066, 18, 1920, 1215, 1217],
         "memberAccountNames": {
           "65c59c43aeb76a63df61000a": {
-            "avatarUrl": "https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg?format=300w",
+            "avatarUrl": "https://berita.luwuutarakab.go.id/content/uploads/images/pimpinan/bupati-andi-rahim.png?format=300w",
             "bio": "",
             "displayName": "<?=$judul;?> "
           }
@@ -676,7 +676,7 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
         "url": "<?= $url;?>",
         "name": "<?=$judul;?>",
         "description": "",
-        "image": "https://i.ibb.co/Cpg3GVvz/gacoflash.gif",
+        "image": "https://berita.luwuutarakab.go.id/content/uploads/images/banner/logo-open-data.png",
         "@context": "http://schema.org",
         "@type": "WebSite"
       }
@@ -684,7 +684,7 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
     <script type="application/ld+json">
       {
         "name": "<?= $title;?> u2014 <?=$judul;?>",
-        "image": "https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg",
+        "image": "https://berita.luwuutarakab.go.id/content/uploads/images/pimpinan/bupati-andi-rahim.png",
         "description": "<?= $desc;?>",
         "brand": "<?=$judul;?>",
         "offers": {
@@ -715,7 +715,7 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
       }
 
       .tweak-fixed-header .header .header-announcement-bar-wrapper {
-        background: linear-gradient(to bottom, #be6c00ff 0,rgba(255, 115, 0, 1) 100%);
+        background: linear-gradient(to bottom, #7bff00ff 0,rgba(0, 150, 7, 1) 100%);
       }
 
       .collection-type-products .ProductItem-details h1.ProductItem-details-title {
@@ -723,7 +723,7 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
       }
 
       footer#footer-sections {
-        background: linear-gradient(to bottom, #ff9100ff 0,rgba(184, 104, 0, 1) 100%);
+        background: linear-gradient(to bottom, #07836eff 0,rgba(0, 217, 255, 1) 100%);
         color: white;
         font-family: arial;
         text-align: center;
@@ -761,15 +761,15 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
 
       .login,
       .login-button {
-        background: linear-gradient(to bottom,rgba(255, 123, 0, 1) 0, #bb6400ff 100%);
-        border: 2px solid rgba(136, 54, 0, 1);
+        background: linear-gradient(to bottom,rgba(9, 255, 0, 1) 0, #059c00ff 100%);
+        border: 2px solid rgba(255, 255, 255, 1);
         box-shadow: 0px 0px 3px rgb(255, 255, 255);
       }
 
       .register,
       .register-button {
-        background: linear-gradient(to bottom,rgba(173, 78, 0, 1) 0, #ff7300ff 100%);
-        border: 2px solid rgba(170, 54, 0, 1);
+        background: linear-gradient(to bottom,rgba(255, 238, 0, 1) 0, #b0bd00ff 100%);
+        border: 2px solid rgba(68, 0, 255, 1);
         box-shadow: 0px 0px 3px rgb(255, 255, 255);
       }
     </style>
@@ -1162,7 +1162,7 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
                       header-title
                       
                     " data-animation-role="header-element">
-                  <div class="header-title-logo"><a href="<?= $url;?>" data-animation-role="header-element"><img elementtiming="nbf-header-logo-desktop" src="https://i.ibb.co/Cpg3GVvz/gacoflash.gif" alt="<?=$judul;?>" style="display:block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw"></a></div>
+                  <div class="header-title-logo"><a href="<?= $url;?>" data-animation-role="header-element"><img elementtiming="nbf-header-logo-desktop" src="https://berita.luwuutarakab.go.id/content/uploads/images/banner/logo-open-data.png" alt="<?=$judul;?>" style="display:block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw"></a></div>
                 </div>
               </div>
               <div class="header-actions header-actions--right">
@@ -1235,7 +1235,7 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
                       header-title
                       
                     " data-animation-role="header-element">
-                  <div class="header-title-logo"><a href="/" data-animation-role="header-element"><img elementtiming="nbf-header-logo-desktop" src="https://i.ibb.co/Cpg3GVvz/gacoflash.gif" alt="<?=$judul;?>" style="display:block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw"></a></div>
+                  <div class="header-title-logo"><a href="/" data-animation-role="header-element"><img elementtiming="nbf-header-logo-desktop" src="https://berita.luwuutarakab.go.id/content/uploads/images/banner/logo-open-data.png" alt="<?=$judul;?>" style="display:block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw"></a></div>
                 </div>
               </div>
               <div class="header-actions header-actions--right">
@@ -1590,8 +1590,8 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
                     <section class="ProductItem-summary" data-controller="ProductGallery">
                       <section aria-label="Gallery" class="ProductItem-gallery" data-product-gallery="container">
                         <div class="ProductItem-gallery-slides" data-animation-role="image" data-product-gallery="slides">
-                          <div class="ProductItem-gallery-slides-item" data-slide-index="1" data-image-id="65fd0fd62438744c9a05c86b" data-controller="ImageZoom" data-slide-url="zeus" data-product-gallery="slides-item" data-test="pdp-gallery-slide"><img aria-describedby="ProductItem-gallery-slides-item-1-index-65fd0fd62438744c9a05c86b" class="ProductItem-gallery-slides-item-1" data-load="false" data-src="https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg" data-image="https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?=$judul;?>" elementtiming="nbf-products-gallery" /><span id="ProductItem-gallery-slides-item-1-index-65fd0fd62438744c9a05c86b" style="display: none;"> Image 1 of </span>
-                            <div class="product-image-zoom-duplicate" aria-hidden="true"><img data-load="false" data-src="https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg" data-image="https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?=$judul;?>" elementtiming="nbf-products-gallery-zoom" /></div>
+                          <div class="ProductItem-gallery-slides-item" data-slide-index="1" data-image-id="65fd0fd62438744c9a05c86b" data-controller="ImageZoom" data-slide-url="zeus" data-product-gallery="slides-item" data-test="pdp-gallery-slide"><img aria-describedby="ProductItem-gallery-slides-item-1-index-65fd0fd62438744c9a05c86b" class="ProductItem-gallery-slides-item-1" data-load="false" data-src="https://berita.luwuutarakab.go.id/content/uploads/images/pimpinan/bupati-andi-rahim.png" data-image="https://berita.luwuutarakab.go.id/content/uploads/images/pimpinan/bupati-andi-rahim.png" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?=$judul;?>" elementtiming="nbf-products-gallery" /><span id="ProductItem-gallery-slides-item-1-index-65fd0fd62438744c9a05c86b" style="display: none;"> Image 1 of </span>
+                            <div class="product-image-zoom-duplicate" aria-hidden="true"><img data-load="false" data-src="https://berita.luwuutarakab.go.id/content/uploads/images/pimpinan/bupati-andi-rahim.png" data-image="https://berita.luwuutarakab.go.id/content/uploads/images/pimpinan/bupati-andi-rahim.png" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?=$judul;?>" elementtiming="nbf-products-gallery-zoom" /></div>
                           </div>
                           <div class="gallery-lightbox-outer-wrapper" data-use-image-loader="true" data-controller="Lightbox">
                             <div class="gallery-lightbox " data-section-theme>
@@ -1607,7 +1607,7 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
                                   <figure class="gallery-lightbox-item" data-slide-url="zeus">
                                     <div class="gallery-lightbox-item-wrapper">
                                       <div class="gallery-lightbox-item-src">
-                                        <div class="gallery-lightbox-item-img content-fit"><img data-src="https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg" data-image="https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?=$judul;?>" data-load="false" elementtiming="nbf-product-lightbox" /></div>
+                                        <div class="gallery-lightbox-item-img content-fit"><img data-src="https://berita.luwuutarakab.go.id/content/uploads/images/pimpinan/bupati-andi-rahim.png" data-image="https://berita.luwuutarakab.go.id/content/uploads/images/pimpinan/bupati-andi-rahim.png" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?=$judul;?>" data-load="false" elementtiming="nbf-product-lightbox" /></div>
                                       </div>
                                     </div>
                                   </figure>
