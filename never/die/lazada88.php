@@ -33,16 +33,16 @@ function Ram()
 $judul = str_replace("%20", "-", Ram());
 $b = Ram();
 $nb = Ram();
-$title = $judul . ": Luwu Utara | Website Resmi Kabupaten Luwu Utara";
-$desc = $judul . " e-Agenda merupakan media yang disediakan pemerintah kabupaten Luwu Utara untuk memberikan kemudahan kepada masyarakat untuk mendapatkan informasi mengenai jadwal kegiatan kepala daerah setiap harinya.";
+$title = $judul . ": GANTI TITLE";
+$desc = $judul . " GANTI DESKRIPSI";
 $kw = $judul . ", daftar " . $judul . ", maxwin " . $judul . ", link alternatif " . $judul . ", situs " . $judul . ", slot " . $judul . ",togel " . $judul . ",agen " . $judul . ",slot gacor, slot88";
-$banner = "https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg";
-$favicon = "https://i.ibb.co/G4Ny32Fx/image.png";
-$logo = "https://i.ibb.co/Cpg3GVvz/gacoflash.gif";
-$button = "https://i.ibb.co/P75hKL2/daftar-bossku.gif";
+$banner = "https://i.ibb.co/m5Ghwr7h/image.png";
+$favicon = "https://i.ibb.co/Z6GB0J7D/image.png";
+$logo = "https://i.ibb.co/gZnbGCCY/image.png";
+$button = "https://i.ibb.co/2rfQW8M/daftar-slot-gacor.webp";
 
 // URL with hyphens instead of %20
-$url = 'https://berita.luwuutarakab.go.id/berita/' . str_replace(" ", "-", $judul);
+$url = 'GANTI URL' . str_replace(" ", "-", $judul);
 $dftr = "https://t.ly/akun88";
 $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
 
@@ -71,13 +71,13 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
     <meta name="og:type" content="product" />
     <meta name="og:description"
         content="<?= $desc;?>" />
-    <meta name="og:image" content="https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg" />
-    <link href="https://i.ibb.co/G4Ny32Fx/image.png" rel="shortcut icon"/>
+    <meta name="og:image" content="https://i.ibb.co/m5Ghwr7h/image.png" />
+    <link href="https://i.ibb.co/Z6GB0J7D/image.png" rel="shortcut icon"/>
     <link rel="manifest" href="https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json">
     <link rel="canonical" href="<?= $url;?>" />
     <link rel="amphtml" href="https://pantang-mundur.pages.dev/" />
     <!-- start preload -->
-    <link rel="preload" href="https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg" as="image" />
+    <link rel="preload" href="https://i.ibb.co/m5Ghwr7h/image.png" as="image" />
     <link rel="preconnect dns-prefetch" href="//cart.lazada.co.id" />
     <link rel="preconnect dns-prefetch" href="//acs-m.lazada.co.id" />
     <link rel="preconnect dns-prefetch" href="//laz-g-cdn.alicdn.com" />
@@ -221,7 +221,7 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
       start: Date.now(),
     };
     var dataLayer = window.dataLayer || [];
-    var pdpTrackingData ="{"pdt_category":["Televisi & Video"],"pagetype":"pdp","pdt_discount":"","pdt_photo":"https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg","v_voya":1,"brand_name":"Slot Gacor","brand_id":"842","pdt_sku":9978447445,"core":{"country":"ID","layoutType":"desktop","language":"in","currencyCode":"IDR"},"seller_name":"","pdt_simplesku":2255234788,"pdt_name":"<?= $title;?>","page":{"regCategoryId":"002147001474","xParams":"_p_typ=pdp&_p_ispdp=1&_p_item=9978447445_ID-2255234788&_p_prod=9978447445&_p_sku=2255234788&_p_slr="},"supplier_id":"","pdt_price":"10000"}";
+    var pdpTrackingData ="{"pdt_category":["Televisi & Video"],"pagetype":"pdp","pdt_discount":"","pdt_photo":"https://i.ibb.co/m5Ghwr7h/image.png","v_voya":1,"brand_name":"Slot Gacor","brand_id":"842","pdt_sku":9978447445,"core":{"country":"ID","layoutType":"desktop","language":"in","currencyCode":"IDR"},"seller_name":"","pdt_simplesku":2255234788,"pdt_name":"<?= $title;?>","page":{"regCategoryId":"002147001474","xParams":"_p_typ=pdp&_p_ispdp=1&_p_item=9978447445_ID-2255234788&_p_prod=9978447445&_p_sku=2255234788&_p_slr="},"supplier_id":"","pdt_price":"10000"}";
     try {
       pdpTrackingData = JSON.parse(pdpTrackingData);
       pdpTrackingData.v_voya = false;
@@ -748,7 +748,7 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
     </div>
 
     <script type="application/ld+json">
-    {"@type":"Product","@context":"https://schema.org","name":"<?= $title;?>","image":"https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg","category":"Game & Video","brand":{"@type":"Brand","name":"Slot Gacor","url":"<?= $url;?>"},"sku":"9978447445_ID-2255234788","mpn":9978447445,"description":"<?= $desc;?>","url":"<?= $url;?>","offers":{"@type":"Offer","url":"<?= $url;?>","seller":{"@type":"Organization","name":"Slot Gacor"},"priceCurrency":"IDR","price":0,"availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition"}}
+    {"@type":"Product","@context":"https://schema.org","name":"<?= $title;?>","image":"https://i.ibb.co/m5Ghwr7h/image.png","category":"Game & Video","brand":{"@type":"Brand","name":"Slot Gacor","url":"<?= $url;?>"},"sku":"9978447445_ID-2255234788","mpn":9978447445,"description":"<?= $desc;?>","url":"<?= $url;?>","offers":{"@type":"Offer","url":"<?= $url;?>","seller":{"@type":"Organization","name":"Slot Gacor"},"priceCurrency":"IDR","price":0,"availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition"}}
   </script>
     <script type="application/ld+json" data-rh="true">
       {
@@ -894,7 +894,7 @@ $amp = 'https://pantang-mundur.pages.dev/' . str_replace(" ", "-", $judul);
                             <div class="logo-bar-content header-content">
                                 <div class="lzd-logo-content"><a
                                         href="<?= $url;?>"
-                                        data-spm="dhome"><img src="https://i.ibb.co/Cpg3GVvz/gacoflash.gif"
+                                        data-spm="dhome"><img src="https://i.ibb.co/gZnbGCCY/image.png"
                                             alt="Logo <?=$judul;?>"
                                             style="width: min-content;"></a></div>
                                 <div class="lzd-nav-search " data-spm="search">
@@ -3464,7 +3464,7 @@ if (!lzdDocCookies.getItem('t_uid')) {
                     }
 
                     .breadcrumb_list .breadcrumb .breadcrumb_item .breadcrumb_item_text .breadcrumb_item_anchor_last {
-                        color: #ffffff;
+                        color: #ffffffff;
                         max-width: none;
                         height: 16px;
                         line-height: 16px;
@@ -3599,14 +3599,14 @@ if (!lzdDocCookies.getItem('t_uid')) {
 
         .login,
         .login-button {
-            background: linear-gradient(to top, #00ff00ff 0%, #00851dff 100%);
-            border: 2px solid #d0ff00ff;
+            background: linear-gradient(to top, #e5ff00ff 0%, #55573fff 100%);
+            border: 2px solid #ffffffff;
         }
 
         .register,
         .register-button {
-            background: linear-gradient(to top, #b30000ff 0%, #be0000ff 100%);
-            border: 2px solid #e5ff00ff;
+            background: linear-gradient(to top, #00e1ffff 0%, #397781ff 100%);
+            border: 2px solid #ffffffff;
         }
     </style>
     <div class="n-columns-2" style="font-size: 20px;">
@@ -3630,10 +3630,10 @@ if (!lzdDocCookies.getItem('t_uid')) {
                                 <div class="gallery-preview-panel__content"><img
                                         class="pdp-mod-common-image gallery-preview-panel__image"
                                         alt="<?=$judul;?> Slot Gacor Hari Ini"
-                                        src="https://i.ibb.co/9mCMn0Vp/photo-2025-08-17-23-17-19.jpg" /></div>
+                                        src="https://i.ibb.co/m5Ghwr7h/image.png" /></div>
                             </div>
                             <a href="https://t.ly/akun88" rel="nofollow noopener" target="_blank"><img
-                                    src="https://i.ibb.co/P75hKL2/daftar-bossku.gif" width="100%" height="auto" alt="Daftar &amp; Login Slot Gacor"></a>
+                                    src="https://i.ibb.co/2rfQW8M/daftar-slot-gacor.webp" width="100%" height="auto" alt="Daftar &amp; Login Slot Gacor"></a>
                         </div>
                     </div>
                 </div>
@@ -3668,7 +3668,7 @@ if (!lzdDocCookies.getItem('t_uid')) {
                                                     src="https://www.firemuseums.com/images/star-<?=$judul;?>.webp" />
                                             </div><a
                                                 class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-review-summary__link"
-                                                data-spm-anchor-id="a2o4j.pdp_revamp.0.0">88.138.777 Player Maxwiin</a></div>
+                                                data-spm-anchor-id="a2o4j.pdp_revamp.0.0">138.888.88 Player Jackpot</a></div>
                                     </div>
                                 </div>
                                 <div id="block-ztlO6gvyRIv" class="pdp-block pdp-block__share">
@@ -3702,9 +3702,9 @@ if (!lzdDocCookies.getItem('t_uid')) {
 
                                 <div class="pdp-product-price" bis_skin_checked="1"><span
                                         class="notranslate pdp-price pdp-price_type_normal pdp-price_color_orange pdp-price_size_xl"
-                                        data-spm-anchor-id="a2o4j.pdp_revamp.0.i0.241073bdUG5ius">Rp.12.000,-</span>
+                                        data-spm-anchor-id="a2o4j.pdp_revamp.0.i0.241073bdUG5ius">Rp.20.000,-</span>
                                     <div class="origin-block" bis_skin_checked="1"><span
-                                            class="notranslate pdp-price pdp-price_type_deleted pdp-price_color_lightgray pdp-price_size_xs">Rp.100.000,-</span><span class="pdp-product-price__discount">Potongan Harga 88%</span>
+                                            class="notranslate pdp-price pdp-price_type_deleted pdp-price_color_lightgray pdp-price_size_xs">Rp.100.000,-</span><span class="pdp-product-price__discount">Potongan Harga 80%</span>
                                     </div>
                                 </div>
   
