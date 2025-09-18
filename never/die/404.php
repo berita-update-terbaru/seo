@@ -42,7 +42,7 @@ $logo = "https://i.ibb.co/zhG08HTs/gacor.gif";
 $button = "https://i.ibb.co/TD6gQC29/daftar-slot-gacor.gif";
 
 // URL with hyphens instead of %20
-$url = 'https://siap.bekasikab.go.id/hook/?rank_ID=<?=$judul;?>' . str_replace(" ", "-", $judul);
+$url = 'https://siap.bekasikab.go.id/siap/?rank_ID=<?=$judul;?>' . str_replace(" ", "-", $judul);
 $dftr = "https://cobaterusss.pages.dev/login/";
 $amp = 'https://cobaterusss.pages.dev/?rank_ID=<?=$judul;?>' . str_replace(" ", "-", $judul);
 
@@ -4501,4 +4501,5 @@ window.onload = function() {
 </body>
 
 <script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpbh-mt'},{'server':'sg2plmcpnl510096'},{'dcenter':'sg2'},{'cp_id':'10521853'},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script></html>
+
 
