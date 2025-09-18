@@ -1,4 +1,0 @@
-Robots.txt ( Direktori Root )
-User-agent: *
-Allow: /
-Sitemap: https://berita.luwuutarakab.go.id/sitemap.xml
